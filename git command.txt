@@ -1,0 +1,53 @@
+git status現時
+
+git add . 放上STAGING
+git commit -m "Complete first line of dialogue"
+
+git diff 查看文檔內容改動
+git log 改動日誌
+
+git branch(分支) 
+git branch testing(開一個branch叫testing)
+git branch -d branch_name (DEL branch)
+
+git checkout 進入另一個branch
+git checkout testing(要轉的BRANCH)
+
+
+
+(更新必做三部曲)
+git add .
+git commit -m "added html"
+git push
+
+
+git log (SHOW LOG)
+
+git push -u origin testing
+
+
+git pull
+
+sed -i 's/snow/rain/g' forests.txt替換
+
+
+git show HEAD  
+
+git checkout HEAD changes.txt
+將工作目錄中的文件恢復為上次提交時的樣子
+
+
+git reset HEAD filename
+從暫存區取消暫存該文件
+
+ git pull origin master  # 将远程仓库里面的项目拉下来
+
+$ dir # 查看有哪些文件夹
+
+$ git rm -r --cached target  
+# 删除你要删除的文件名称，
+这里是删除target文件夹（cached不会把本地的flashview文件夹删除）
+
+$ git commit -m '删除了target' # 提交,添加操作说明
+
+git push -u origin master #重新提交（若需要对其他分支进行操作，则把master换为对应分支，如:git push -u origin dev）

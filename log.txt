@@ -1,0 +1,205 @@
+
+User@DESKTOP-NMDKA7F MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Templates@
+ USER/
+ Videos/
+ battery-report.html
+ fewd-c02/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ 「開始」功能表@
+
+User@DESKTOP-NMDKA7F MINGW64 ~
+$ cd USER/
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER
+$ ls
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER
+$ ls
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER
+$ pwd
+/c/Users/User/USER
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER
+$ ls
+fewd-c02/
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER
+$ cd fewd-c02/
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02
+$ git init
+Initialized empty Git repository in C:/Users/User/USER/fewd-c02/.git/
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (master)
+$ echo "# fewd-c02" >> README.md
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (master)
+$ cat README.md
+# fewd-c02
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (master)
+$ git remote -v
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (master)
+$ ls
+README.md
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (master)
+$ nano README.md
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (master)
+$ cat README.md
+## fewd-c02
+# fewd-c02
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (master)
+$ git remote -v
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (master)
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (master)
+$ git commit -m "first commit"
+[master (root-commit) c071d5f] first commit
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (master)
+$ git branch -M main
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ nano README.md
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ git commit -m "updated README.md"
+[main b7bbe50] updated README.md
+ 1 file changed, 1 insertion(+)
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ git remote -v
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ git remote add origin https://github.com/Kenson999/fewd-c02.git
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ git remote -v
+origin  https://github.com/Kenson999/fewd-c02.git (fetch)
+origin  https://github.com/Kenson999/fewd-c02.git (push)
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ git push -u origin main
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ git config --global user.neme
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ git config --global user.name
+Kenson999
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ git config --global user.email
+systemk2@yahoo.com.hk
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ git push -u origin main
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ git push -u origin main
+
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ git remote -v
+origin  https://github.com/Kenson999/fewd-c02.git (fetch)
+origin  https://github.com/Kenson999/fewd-c02.git (push)
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ ls
+README.md
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$ ls -al
+total 5
+drwxr-xr-x 1 User 197121  0 Jun 24 14:12 ./
+drwxr-xr-x 1 User 197121  0 Jun 24 14:11 ../
+drwxr-xr-x 1 User 197121  0 Jun 24 14:34 .git/
+-rw-r--r-- 1 User 197121 35 Jun 24 14:15 README.md
+
+User@DESKTOP-NMDKA7F MINGW64 ~/USER/fewd-c02 (main)
+$

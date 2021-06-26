@@ -1,0 +1,80 @@
+
+WINDOWS FILE格式:
+C:\Windows\system32\example.txt
+
+mnt->C D E USB
+
+LINUX ->no ga
+
+
+Linux/mac->
+/usr/share/public/example.txt
+ab
+
+MAC:TERMINAL
+WINDOWS: START ->UBUNTU
+
+(ALTERNATIVE:
+
+LS:LIST出所有檔案
+
+PWD:目前位置
+
+..:上一層
+
+CD /=ROOT
+
+TOUCH:FILE
+
+MKDIR:FORD
+
+
+RM:REMORE -RF FO (-r)(F強行)
+
+
+cat > LS.TXT
+覆蓋
+
+cat >> LS.TXT
+放尾
+
+LS -A 
+顯示當下隱藏包括其子資料夾的文件
+
+LS -T
+顯示排序以最後編輯時間為準
+
+LS -L
+顯示詳細		
+
+sed -i 's/LARRY/LAERTES/g' scene-3.txt
+文字取代
+
+RM- REMOVE
+-R(FLODER)				
+
+ECHO "HELLO" > HELLP
+
+CAT SHOW TXT TO CMD
+
+先汁行|將結果顯示
+WC=數字 -C -W
+
+
+alias pd="pwd"
+SET快捷指令
+
+NANO
+EDIT FILE用
+
+
+GREP 'SONNY' NAMC.TXT
+搵字(常用)-i 大細階 -r 下file搵唔搵埋
+
+CP=COPY
+
+MV=MOVE
+
+
+VIM->:q出去
+
