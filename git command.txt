@@ -9,6 +9,12 @@ git log 改動日誌
 git branch(分支) 
 git branch testing(開一個branch叫testing)
 git branch -d branch_name (DEL branch)
+git merge branch_name(合併分支) 
+
+合併衝突:
+Automatic merge failed; 
+fix conflicts and then commit the result.
+開FILE DEL句
 
 git checkout 進入另一個branch
 git checkout testing(要轉的BRANCH)
@@ -31,14 +37,20 @@ git pull
 sed -i 's/snow/rain/g' forests.txt替換
 
 
-git show HEAD  
 
-git checkout HEAD changes.txt
+
+git checkout HEAD changes.txt  ***(打錯野要重開)
 將工作目錄中的文件恢復為上次提交時的樣子
-
+放棄工作目錄中的更改。
 
 git reset HEAD filename
-從暫存區取消暫存該文件
+從暫存區取消暫存該文件(Unstaged)
+取消暫存區中的文件更改。*****
+
+****
+git show HEAD  
+git log 
+git reset HEAD ......(6個代碼)
 
  git pull origin master  # 将远程仓库里面的项目拉下来
 
