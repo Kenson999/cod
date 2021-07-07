@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Otomanopee+One&family=Zen+Loop:ital@0;1&display=swap');
+
 html, body {
   margin: 0;
   padding: 0;
@@ -61,7 +63,7 @@ footer .container{
 }
 
 footer p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Zen Loop', sans-serif;
   text-transform: uppercase;
   font-size: 11px;
 
