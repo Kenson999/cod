@@ -1,0 +1,103 @@
+body {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigationbar {
+    display: flex;
+}
+
+.navigationbar .links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.navigationbar .links .link {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navigationbar .logo {
+    flex: 1;
+}
+
+@media screen and(max-width: 760px) {
+    .navigationbar-mobile {
+        display: flex;
+    }
+    .navigationbar {
+        display: none;
+    }
+    .poster {
+        display: flex;
+        flex-direction: column;
+    }
+    .poster .picture {
+        width: 100%;
+        margin: 0;
+    }
+    .poster button {
+        width: 80%;
+    }
+    z .poster .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.poster {
+    display: flex;
+    background-color: lightgrey;
+}
+
+.poster picture {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.poster .picture img {
+    width: 100%;
+}
+
+.poster .text {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.poster .text button {
+    width: 200px;
+    background-color: grey;
+    color: white;
+}
+
+.main {
+    display: flex;
+}
+
+.main .left-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.main .picture {
+    width: 100%;
+}
+
+.main .picture img {
+    width: 100%;
+}
+
+.main .right-content {
+    width: 40%;
+}
+
+.main .right-content .right
